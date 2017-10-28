@@ -27,7 +27,7 @@ To use this TODO app, you need Enternet access and modern version of any browser
 ### 3.1 Functional requirements
 * Ability to create new task
 * Ability to show all tasks
-* Ability to hide completed tasks
+* Ability to see quantity of incompleted tasks left
 * Ability to mark compleled tasks
 * Ability to delete tasks
 * Ability to edit tasks
