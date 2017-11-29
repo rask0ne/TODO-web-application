@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Web Form</title>
+  	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	  <div class="container">
+
+			<div class="add-section row">
+			  <div class="col-md-12 text-center">
+			  	<h1>TODO</h1>
+			  	<div class="col-md-12">
+			  		<input id="myInput" type="text" class="inputString"  placeholder="Text of task..." autofocus="true">
+			  		<button id="addButton" class="add-btn">Add</button>
+			  	</div>
+			  </div>
+			</div><!--Row-->
+
+			<div class="incomplete row">
+				 <div class="col-md-3 offset-md-9">
+				  	<p><span id="count"></span></p>
+				 </div>
+			</div><!--Row-->
+
+      <div class="col-md-12" id="todos"></div>
+
+      <!--<div class="tasks row col-md-12">
+				<div class="col-md-12">
+				  <ul id="myUL">
+				  <li class="checked">1</li>
+				  <li>2</li>
+				  <li>3</li>
+				  <li>4</li>
+				  <li>5</li>
+        </ul>-->
+				</div>
+			</div><!--Row-->
+	  </div><!--Container-->
+
+
+
+
+	  <!-- Optional JavaScript -->
+	  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	  <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="js/final.js"></script>
+	  <!--<script src="js/script.js"></script>-->
+	  <!-- <script>
+	   	$('#count').text( $('ul').find($("li:not(.checked)")).length);
+
+		   $('ul').on('click', function(){
+	   			$('#count').text( $('ul').find($("li:not(.checked)")).length);
+			});
+
+			$('.add-btn').on('click', function(){
+	   			$('#count').text( $('ul').find($("li:not(.checked)")).length);
+			});
+
+			$('.close').on('click', function(){
+	   			$('#count').text( $('ul').find($("li:not(.checked)")).length);
+			});
+		</script> -->
+  </body>
+</html>
